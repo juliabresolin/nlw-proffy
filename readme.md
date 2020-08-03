@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="ecoleta-header" title="ecoleta" src=".docs/logo.png" width="260px" />
+    <img alt="proffy-logo" title="proffy" src=".docs/logo.png" width="260px" />
 </h1>
 
 <p align="center">
