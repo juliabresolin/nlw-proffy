@@ -3,12 +3,14 @@ import React from 'react';
 import './styles.css';
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
-
 function TeacherItem() {
   return (
     <article className="teacher-item">
       <header>
-        <img src="https://api.adorable.io/avatars/285/abott@adorable.png" alt="teacher avatar"/>
+        <img
+          src="https://api.adorable.io/avatars/285/abott@adorable.png"
+          alt="teacher avatar"
+        />
         <div>
           <strong>Julia Bresolin</strong>
           <span>Química</span>
@@ -16,8 +18,11 @@ function TeacherItem() {
       </header>
       <p>
         Entusiasta das melhores tecnologias de química avançada.
-        <br /><br />
-        Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.
+        <br />
+        <br />
+        Apaixonado por explodir coisas em laboratório e por mudar a vida das
+        pessoas através de experiências. Mais de 200.000 pessoas já passaram por
+        uma das minhas explosões.
       </p>
       <footer>
         <p>
@@ -26,12 +31,12 @@ function TeacherItem() {
         </p>
 
         <button type="button">
-          <img src={ whatsappIcon } alt="whatsapp icon"/>
+          <img src={whatsappIcon} alt="whatsapp icon" />
           Entrar em contato
         </button>
       </footer>
-  </article>
-  )
+    </article>
+  );
 }
 
 export default TeacherItem;
