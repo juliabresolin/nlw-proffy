@@ -12,7 +12,10 @@ export async function up(knex: Knex) {
       .onUpdate('cascade')
       .onDelete('cascade');
 
-    table.timestamp('created_at').defaultTo('now()').notNullable();
+    table
+      .timestamp('created_at')
+      .defaultTo(knex.raw('current_timestamp'))
+      .notNullable();
   });
 }
 
