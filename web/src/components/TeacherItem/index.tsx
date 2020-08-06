@@ -3,37 +3,44 @@ import React from 'react';
 import './styles.css';
 import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
-function TeacherItem() {
+export interface Teacher {
+  avatar: string;
+  bio: string;
+  cost: number;
+  id: number;
+  name: string;
+  subject: string;
+  whatsapp: string;
+}
+
+interface TeacherProps {
+  teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherProps> = ({ teacher }) => {
   return (
     <article className="teacher-item">
       <header>
         <img
-          src="https://api.adorable.io/avatars/285/abott@adorable.png"
-          alt="teacher avatar"
+          src={teacher.avatar}
+          alt={teacher.name}
         />
         <div>
-          <strong>Julia Bresolin</strong>
-          <span>Química</span>
+          <strong>{teacher.name}</strong>
+          <span>{teacher.subject}</span>
         </div>
       </header>
-      <p>
-        Entusiasta das melhores tecnologias de química avançada.
-        <br />
-        <br />
-        Apaixonado por explodir coisas em laboratório e por mudar a vida das
-        pessoas através de experiências. Mais de 200.000 pessoas já passaram por
-        uma das minhas explosões.
-      </p>
+      <p>{teacher.bio}</p>
       <footer>
         <p>
           Preço/hora
-          <strong>R$ 80,00</strong>
+          <strong>R$ {teacher.cost}</strong>
         </p>
 
-        <button type="button">
+        <a href={`https://wa.me/${teacher.whatsapp}`}>
           <img src={whatsappIcon} alt="whatsapp icon" />
           Entrar em contato
-        </button>
+        </a>
       </footer>
     </article>
   );
