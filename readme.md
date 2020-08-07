@@ -8,7 +8,7 @@
   <img alt="license" src="https://img.shields.io/github/license/jbresolinn/nlw-proffy?color=8257EE">
   <img alt="stars" src="https://img.shields.io/github/stars/jbresolinn/nlw-proffy?color=8257EE">
 </p>
-
+<br>
 <p align="center">
   <a href="#-what-is-proffy">What is Proffy?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-what-technologies-are-used">What technologies are used?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,7 +16,7 @@
   <a href="#-running-the-project">Running the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
-
+<br>
 
 
 ## <img src=".docs/label.svg" width="24px"> What is Proffy?
