@@ -19,7 +19,7 @@
 <br>
 
 
-## <img src=".docs/label.svg" width="24px"> What is Proffy?
+## <img src=".docs/label.svg" width="18px">&nbsp; What is Proffy?
 
 Proffy is an open source project that aims to connect teacher and students to private classes. 
 
@@ -28,19 +28,19 @@ It was developed during the second edition of Next Level Week at Rocketseat, fro
 You can learn more about Rocketseat and Next Level Week [here](https://rocketseat.com.br/) and [here](http://nextlevelweek.com/).
 <br><br>
 
-## <img src=".docs/label.svg" width="24px"> What technologies are used?
+## <img src=".docs/label.svg" width="18px">&nbsp; What technologies are used?
 
 For the development of Proffy, the stack was used as a basis: `node.js`, `reactjs` and `react native`.
 
 Along with the stack, technologies such as restfull api, hooks, sqlite storage, mobile first and reponsiveness, among others, were used.
 <br><br>
 
-## <img src=".docs/label.svg" width="24px"> Prototype
+## <img src=".docs/label.svg" width="18px">&nbsp; Prototype
 
 The prototype was developed entirely by Rocketseat UI Designer [@tiagoluchtenberg](https://instagram.com/tiagoluchtenberg) and you can check the web layout at [this link](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web) and the mobile layout at [this link](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile?node-id=0%3A1).
 <br><br>
 
-## <img src=".docs/label.svg" width="24px"> Running the project
+## <img src=".docs/label.svg" width="18px">&nbsp; Running the project
 
 The project has three modules: `server`, `web` and `mobile`. Before running the commands below, make sure that you are in the directory of the module you want to run.
 
@@ -60,7 +60,7 @@ The project has three modules: `server`, `web` and `mobile`. Before running the 
   - :warning: Coming soon
 <br><br>
 
-## <img src=".docs/label.svg" width="24px"> License
+## <img src=".docs/label.svg" width="18px">&nbsp; License
 
   This project is under the MIT license. See the [license](license.md) file more details.
 
