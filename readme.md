@@ -1,13 +1,12 @@
 <h1 align="center">
     <img alt="proffy-header" title="proffy" src=".docs/header.png" width="900px" />
 </h1>
-
+<br>
 <p align="center">
- <img alt="languages count" src="https://img.shields.io/github/languages/count/jbresolinn/nlw-proffy?color=8257E5"/>
-  <img alt="repo size" src="https://img.shields.io/github/repo-size/jbresolinn/nlw-proffy?color=8257E5">
-  <img alt="repo size" src="https://img.shields.io/github/license/jbresolinn/nlw-proffy?color=8257E5">
-  <img alt="repo size" src="https://img.shields.io/github/stars/jbresolinn/nlw-proffy?color=8257E5">
-
+ <img alt="languages count" src="https://img.shields.io/github/languages/count/jbresolinn/nlw-proffy?color=8257EE"/>
+  <img alt="repo size" src="https://img.shields.io/github/repo-size/jbresolinn/nlw-proffy?color=8257EE">
+  <img alt="license" src="https://img.shields.io/github/license/jbresolinn/nlw-proffy?color=8257EE">
+  <img alt="stars" src="https://img.shields.io/github/stars/jbresolinn/nlw-proffy?color=8257EE">
 </p>
 
 <p align="center">
@@ -18,6 +17,8 @@
   <a href="#-license">License</a>
 </p>
 
+
+
 ## <img src=".docs/label.svg" width="24px"> What is Proffy?
 
 Proffy is an open source project that aims to connect teacher and students to private classes. 
@@ -25,16 +26,19 @@ Proffy is an open source project that aims to connect teacher and students to pr
 It was developed during the second edition of Next Level Week at Rocketseat, from August 3 to 9, 2020.
 
 You can learn more about Rocketseat and Next Level Week [here](https://rocketseat.com.br/) and [here](http://nextlevelweek.com/).
+<br><br>
 
 ## <img src=".docs/label.svg" width="24px"> What technologies are used?
 
 For the development of Proffy, the stack was used as a basis: `node.js`, `reactjs` and `react native`.
 
 Along with the stack, technologies such as restfull api, hooks, sqlite storage, mobile first and reponsiveness, among others, were used.
+<br><br>
 
 ## <img src=".docs/label.svg" width="24px"> Prototype
 
 The prototype was developed entirely by Rocketseat UI Designer [@tiagoluchtenberg](https://instagram.com/tiagoluchtenberg) and you can check the web layout at [this link](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web) and the mobile layout at [this link](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile?node-id=0%3A1).
+<br><br>
 
 ## <img src=".docs/label.svg" width="24px"> Running the project
 
@@ -49,12 +53,12 @@ The project has three modules: `server`, `web` and `mobile`. Before running the 
 - **Web:** 
   -  Go to the server folder: **`cd /web`**;
   - Install the dependencies: **`yarn`** or **`npm install`**;
-  - Run the project: **`yarn start`** or **`npm start`** (It is necessary to have react-scripts installed globally on the machine: `yarn add react-scripts --global` or `npm install -g react-scripts`;
+  - Run the project: **`yarn start`** or **`npm start`** (It is necessary to have react-scripts installed globally on the machine: **`yarn add react-scripts --global`** or **`npm install -g react-scripts`**;
   - Make sure the server is running correctly by accessing: http://localhost:3000;
   
 - **Mobile:** 
   - :warning: Coming soon
-
+<br><br>
 
 ## <img src=".docs/label.svg" width="24px"> License
 
