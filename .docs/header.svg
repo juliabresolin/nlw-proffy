@@ -1,7 +1,7 @@
 <svg width="900" height="160" viewBox="0 0 900 160" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="900" height="160" rx="8" fill="white"/>
-<rect width="900" height="160" rx="8" fill="#8257E5"/>
+<rect width="900" height="160" rx="4" fill="white"/>
+<rect width="900" height="160" rx="4" fill="#8257E5"/>
 <path d="M631 19L640.3 28.3525" stroke="#04D361" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M640.3 19L631 28.3525" stroke="#04D361" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M81.5749 132.445V145.671" stroke="#04D361" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -92,7 +92,7 @@
 </g>
 <defs>
 <clipPath id="clip0">
-<rect width="900" height="160" rx="8" fill="white"/>
+<rect width="900" height="160" rx="4" fill="white"/>
 </clipPath>
 <clipPath id="clip1">
 <rect width="84" height="77" fill="white" transform="translate(704 48)"/>
