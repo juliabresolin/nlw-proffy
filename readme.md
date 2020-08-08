@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="proffy-header" title="proffy" src=".docs/header.png" width="900px" />
+    <img alt="proffy-header" title="proffy" src=".docs/header.svg" width="900px" />
 </h1>
 <br>
 <p align="center">
@@ -21,7 +21,7 @@
 
 ## <img src=".docs/label.svg" width="18px">&nbsp; What is Proffy?
 
-Proffy is an open source project that aims to connect teacher and students to private classes. 
+Proffy is an open source project that aims to connect teacher and students to private classes.
 
 It was developed during the second edition of Next Level Week at Rocketseat, from August 3 to 9, 2020.
 
@@ -44,19 +44,19 @@ The prototype was developed entirely by Rocketseat UI Designer [@tiagoluchtenber
 
 The project has three modules: `server`, `web` and `mobile`. Before running the commands below, make sure that you are in the directory of the module you want to run.
 
-- **Server:** 
+- **Server:**
     - Go to the server folder: **`cd /server`**;
     - Install the dependencies: **`yarn`** or **`npm install`**;
     - Run the project: **`yarn start`** or **`npm start`**;
     - Make sure the server is running correctly by accessing: http://localhost:3333;
-  
-- **Web:** 
+
+- **Web:**
   -  Go to the server folder: **`cd /web`**;
   - Install the dependencies: **`yarn`** or **`npm install`**;
   - Run the project: **`yarn start`** or **`npm start`** (It is necessary to have react-scripts installed globally on the machine: **`yarn add react-scripts --global`** or **`npm install -g react-scripts`**;
   - Make sure the server is running correctly by accessing: http://localhost:3000;
-  
-- **Mobile:** 
+
+- **Mobile:**
   - :warning: Coming soon
 <br><br>
 
