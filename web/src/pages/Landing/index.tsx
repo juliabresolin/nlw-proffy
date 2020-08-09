@@ -19,7 +19,7 @@ function Landing() {
 
       setTotalConnections(total);
     })
-  }, [totalConnections])
+  }, [totalConnections]);
 
 
   return (
