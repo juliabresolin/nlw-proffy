@@ -51,13 +51,25 @@ The project has three modules: `server`, `web` and `mobile`. Before running the 
     - Make sure the server is running correctly by accessing: http://localhost:3333;
 
 - **Web:**
-  -  Go to the server folder: **`cd /web`**;
+  -  Go to the web folder: **`cd /web`**;
   - Install the dependencies: **`yarn`** or **`npm install`**;
   - Run the project: **`yarn start`** or **`npm start`** (It is necessary to have react-scripts installed globally on the machine: **`yarn add react-scripts --global`** or **`npm install -g react-scripts`**;
   - Make sure the server is running correctly by accessing: http://localhost:3000;
 
 - **Mobile:**
-  - :warning: Coming soon
+
+The mobile app was developed using [Expo](https://expo.io/), so you will need some extra settings:
+
+  **1º: Install `expo-cli` globally on your machine:** `npm install expo-cli --global` or `yarn add expo-cli -g`;
+  **2º: Have the Expo App installed where you will run the project:** [IOS](https://apps.apple.com/app/apple-store/id982107779) or [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www);
+
+
+  - Go to the mobile folder: **`cd /mobile`**;
+  - Install the dependencies: **`yarn`** or **`npm install`**;
+  - Run the project: **`yarn start`** or **`npm start`** or **`expo start`**;
+  - When executing the previous command, a tab will open in your browser (Expo Console). Observe at the bottom left of the screen, some options and execute as needed:
+      - **If you want to run the application on your physical device:** Scan the QR Code that appears in the bottom left corner of the screen with your camera and the device will ask you to open the Expo App. Just wait for the application to be built. (:warning: Remember that the physical devices and the application server must be on the same network).
+      - **If you want to run on an emulator:** Select option `Run on Android device/emulator` and just await for the application to be built.
 <br><br>
 
 ## <img src=".docs/label.svg" width="18px">&nbsp; License
